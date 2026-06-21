@@ -38,19 +38,6 @@ Document Processing
 PyPDF
 LangChain Text Splitters
 
-
-
-Windows
-
-venv\Scripts\activate
-
-Linux / Mac
-
-source venv/bin/activate
-Install Dependencies
-pip install -r requirements.txt
-Configure API Key
-
 Supported Models
 Meta Llama 3 8B
 Meta Llama 3 70B
