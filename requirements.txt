@@ -1,0 +1,4 @@
+streamlit
+openai
+pypdf
+langchain-text-splitters
