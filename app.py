@@ -712,7 +712,7 @@ def init_state():
 def get_client():
     return OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key=st.secrets["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"],
+        api_key="sk-or-v1-xxxxxxxxxxxxxxxx",
     )
 
 
