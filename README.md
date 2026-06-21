@@ -1,97 +1,132 @@
-StudyAI — Intelligent AI Study Assistant
-AI-powered study companion built with Streamlit, OpenRouter LLMs, and PDF-based learning workflows. Upload study notes, generate summaries, create revision notes, practice MCQs, and interact with an AI tutor through a modern chat interface.
+# 🧠 StudyAI — Intelligent AI Study Assistant
 
-Features
-PDF-Based Learning
-Upload PDF notes
-Automatic text extraction
-Context-aware AI responses
-Persistent PDF session support
-AI Chat Assistant
-Ask questions directly from uploaded notes
-Concept explanations
-Doubt solving
-Exam preparation assistance
-Smart Study Tools
-Generate chapter summaries
-Create revision notes
-Generate MCQ practice sets
-Interactive quiz mode
-Modern UI
-Clean professional interface
-Responsive design
-Fixed chat input
-Custom sidebar
-Glassmorphism-inspired styling
+An AI-powered study companion built using **Streamlit**, **OpenRouter LLMs**, and **PDF-based learning workflows**.
 
-Tech Stack
-Frontend
-Streamlit
-Custom CSS
-AI & NLP
-OpenRouter API
-OpenAI Python SDK
-Llama 3
-Gemma 2
-Mistral
-Document Processing
-PyPDF
-LangChain Text Splitters
+StudyAI helps students upload study notes, generate summaries, create revision notes, practice MCQs, take quizzes, and interact with an AI tutor through a modern chat interface.
 
-Supported Models
-Meta Llama 3 8B
-Meta Llama 3 70B
-Mistral 7B
-Gemma 2 9B
-How It Works
-Upload Notes
+---
 
-Upload a PDF containing study material.
+## 🚀 Features
 
-AI Processing
+### 📂 PDF-Based Learning
 
-The application:
+* Upload PDF notes and study materials
+* Automatic text extraction
+* Context-aware AI responses
+* Persistent PDF session support
 
-Extracts text from PDF
-Splits content into chunks
-Stores context in session state
-Uses OpenRouter LLMs for responses
-Study Modes
-Chat Mode
+### 💬 AI Tutor Chat
 
-Ask questions about uploaded notes.
+* Ask questions directly from uploaded notes
+* Concept explanations
+* Doubt solving
+* Exam preparation assistance
+* Personalized learning support
 
-Summary Mode
+### 📝 Smart Study Tools
 
-Generate concise chapter summaries.
+* Chapter Summaries
+* Revision Notes Generation
+* MCQ Generation
+* Interactive Quiz Mode
 
-Notes Mode
+### 🎨 Modern User Interface
 
-Generate structured revision notes.
+* Clean and responsive design
+* Fixed chat interface
+* Custom sidebar
+* Streamlit-powered interactive experience
 
-MCQ Mode
+---
 
-Create multiple-choice questions automatically.
+## 🛠️ Tech Stack
 
-Quiz Mode
+### Frontend
 
-Test understanding through interactive quizzes.
+* Streamlit
+* HTML
+* CSS
 
-Future Improvements
-RAG-based retrieval
-Vector database integration
-Multi-PDF support
-Voice assistant
-PDF highlighting
-Flashcard generation
-Study analytics dashboard
-Progress tracking
-Screenshots
+### AI & NLP
+
+* OpenRouter API
+* OpenAI Python SDK
+* Llama 3
+* Gemma
+* Mistral
+
+### Document Processing
+
+* PyPDF
+* LangChain Text Splitters
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Hussain1331/StudyAI--Intelligent-Study-Assistant.git
+cd StudyAI--Intelligent-Study-Assistant
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Configure API Key
+
+Create a file:
+
+```text
+.streamlit/secrets.toml
+```
+
+Add your OpenRouter API key:
+
+```toml
+OPENROUTER_API_KEY="YOUR_API_KEY"
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📚 How It Works
+
+1. Upload a PDF containing study notes.
+2. StudyAI extracts and processes the text.
+3. Ask questions about your notes.
+4. Generate summaries and revision material.
+5. Practice with AI-generated MCQs.
+6. Test your understanding using Quiz Mode.
+
+---
+
+## 🎯 Future Improvements
+
+* Vector Database Integration
+* Retrieval-Augmented Generation (RAG)
+* Flashcard Generation
+* Multi-PDF Support
+* Voice Assistant
+* Progress Tracking Dashboard
+* Study Analytics
 
 
-Skills
-Python
-Machine Learning
-Streamlit
-AI Applications
-OpenRouter APIs
+### Skills
+
+* Python
+* Artificial Intelligence
+* Machine Learning
+* Streamlit
+* OpenRouter APIs
+
+
